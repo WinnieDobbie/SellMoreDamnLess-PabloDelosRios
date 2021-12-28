@@ -7,18 +7,30 @@
 }
 
 .TituloCreativo{
-color: black;background-color:gold; 
-border-radius: 20%; text-align: center; 
+color: black;background-color:gold ; 
+border-radius: 20%; text-align: center;
+}
+
+header{ 
+background: linear-gradient(to left,black, gold); 
+
 }
 
 body{
     font-family: 'Major Mono Display', monospace;
 }
-
+#nosotrosMain {
+    background-image: url(../img/cieloEstrellado.svg);
+    background-size: cover;
+    background-position: center;
+    color: #FFD700;
+}
 main{
     padding: 20px;
     margin: 20px;
     background-color: beige;
+    background: linear-gradient(to left, beige, white);
+
     
 
     font-size: 20px;
@@ -27,6 +39,9 @@ main{
     font-family: 'Source Sans 3', sans-serif;
     text-align: justify center;
 }  
+
+
+
 nav li{
     display: inline-block;
     width: 16%;
@@ -53,7 +68,8 @@ nav li{
     align-items: center;
     justify-items: stretch;
     gap: 20px;
-    background-color:gold;
+    background-color:#ffd700;
+    background: linear-gradient(to left, #92CB3F, gold);
     border: 2px solid black;
     text-align: center;
     border-radius: 10px;
